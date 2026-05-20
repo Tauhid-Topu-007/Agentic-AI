@@ -30,7 +30,7 @@ agent.print_response("What is the capital of Bangladesh?", user_id=user_id)
 # The second response will use memory of the previous conversation
 agent.print_response("What is the best time to visit it?", user_id=user_id)
 
-memories=agent.db.get_user_memories(user_id=user_id)  # ✅ Fixed: get_memories method
+memories=agent.db.get_user_memories(user_id=user_id)  #  Fixed: get_memories method
 print("\n" + "=" * 50)
 print("Memories stored for user:")
 print("=" * 50)
